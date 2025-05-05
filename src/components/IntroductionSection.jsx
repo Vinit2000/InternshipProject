@@ -33,7 +33,7 @@ const IntroductionSection = () => {
         <img src={scaffolding} alt="Scaffolding" className="intro-image" />
         <img src={crane} alt="Crane" className="intro-image" />
       </div>
-      <center><hr width="800px;" size="10"/></center>
+      {/* <center><hr width="800px;" size="10"/></center> */}
       <h2 className="section-heading">What We Do?</h2>
       <div className="what-we-do-row">
         <div className="service-item">

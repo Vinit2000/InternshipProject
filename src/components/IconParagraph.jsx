@@ -15,7 +15,7 @@ const IconParagraph = () => {
 
   return (
     <div className="section-wrapper">
-      <center><hr width="800px;" size="10"/></center>
+      {/* <center><hr width="500px;" size="10"/></center> */}
       <h2 className="section-heading">OUR SERVICES</h2>
       <div className="icon-list">
         {items.map((text, index) => (
