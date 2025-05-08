@@ -20,9 +20,9 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-2 my-lg-0 navbar-links" navbarScroll>
-            <Nav.Link as={Link} to="/home">atifsir</Nav.Link>
-            <Nav.Link as={Link} to="/aboutus">faris</Nav.Link>
-            <Nav.Link as={Link} to="/ourservices">vinit</Nav.Link>
+            <Nav.Link as={Link} to="/home">Home</Nav.Link>
+            <Nav.Link as={Link} to="/aboutus">About Us</Nav.Link>
+            <Nav.Link as={Link} to="/ourservices">Our Services</Nav.Link>
             <Nav.Link as={Link} to="/ourstrength">Our Strength</Nav.Link>
             <NavDropdown title="Associate Companies" id="navbarScrollingDropdown">
               <NavDropdown.Item as={Link} to='/company1'>Engineer & Associates</NavDropdown.Item>
